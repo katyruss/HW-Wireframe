@@ -1,0 +1,110 @@
+<style>
+
+@mixin clearfix() {
+    &::after {
+      display: block;
+      content: "";
+      clear: both;
+    }
+  }
+
+  body {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777;
+    background: #777;
+    width: 960px;
+    font-size: 18px;
+    text-align: center;
+  }
+  
+  header {
+    background: #ebebeb;
+    margin: 0;
+    text-align: center;
+    padding: 10px;
+    border: 10px;
+    margin: 10px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif; 
+}
+
+p {
+    color: #777; 
+    background: #ebebeb;
+    padding: 20px;
+    border: 10px;
+    margin: 20px;
+}
+
+h1 {
+    color: #777; 
+    background: #ebebeb; 
+    float: left;
+}
+
+h2 {
+    color: #777; 
+    background: #ebebeb; 
+    float: left;
+}
+
+h3 {
+    color: #777; 
+    background: #ebebeb; 
+    float: left;
+}
+
+.article {
+    color: #ebebeb;
+    background: #777; 
+    margin: 0;
+    text-align: center;
+    padding: 10px;
+    border: 10px;
+    margin: 10px;
+}
+
+.section {
+    display: block;
+    background: #ebebeb; 
+    margin: 0;
+    text-align: center;
+    padding: 10px;
+    border: 10px;
+    margin: 10px;
+    width: 480px;
+}
+
+.aside {
+    display: block;
+    background: #ebebeb; 
+    float: right;
+    margin: 0;
+    text-align: center;
+    padding: 10px;
+    border: 10px;
+    margin: 10px;
+    width: 480px;
+}
+
+.navigation {
+    background: #ebebeb;
+    columns: 12;
+    rows: 3;
+    margin: 0;
+    text-align: center;
+    padding: 10px;
+    border: 10px;
+    margin: 10px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;  
+}
+
+footer {
+    background: #ebebeb;
+    margin: 0;
+    text-align: center;
+    padding: 10px;
+    border: 10px;
+    margin: 10px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif; 
+}
+</style>
